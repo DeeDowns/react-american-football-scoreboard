@@ -8,7 +8,7 @@ function App() {
   const [homeScore, setHomeScore] = useState(0);
   const [awayScore, setAwayScore] = useState(0);
 
-  function teamScore(teamName, score) {
+  const teamScore = (teamName, score) => {
     if(teamName === 'Lions') {
       setHomeScore(homeScore + score)
     } else if(teamName === 'Tigers'){
