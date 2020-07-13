@@ -124,8 +124,18 @@
 .upDownButtons
 {
   display: flex;
-  border-radius: 4px;
   justify-content: center;
   align-items: center;
+
  
+}
+
+.quarter__button,
+.down__button,
+.toGo__button,
+.ballOn__button {
+  
+  text-align: center;
+  margin: 5%;
+  border-radius: 4px;
 }
