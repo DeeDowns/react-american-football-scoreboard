@@ -25,10 +25,16 @@ function App() {
       if(seconds > 0) {
         setSeconds(seconds - 1)
       } else if(seconds <= 0){
-        setSeconds(seconds = 59)
-        setMinutes(minutes - 1)
-      } 
+        setSeconds(seconds = 59);
+        setMinutes(minutes - 1);
+      } else if (minutes < 0) {
+        setMinutes(minutes = 15)
+      }
     }, 1000)})
+
+   
+
+
 
 
   return (
